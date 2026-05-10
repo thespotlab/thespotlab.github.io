@@ -5,9 +5,9 @@ permalink: /team/
 ---
 
 <!-- Staff -->
-<h2 class="mb-3"><a id="staff"></a>Staff</h2>
+<h2 class="mb-3"><a id="staff"></a>Faculty</h2>
 
-{% assign members = site.posts | where: 'category', 'staff' | sort: 'date' %}
+{% assign members = site.posts | where: 'category', 'faculty' | sort: 'date' %}
 <ul class="list-unstyled">
 <div class="row">
 {% for member in members%}
@@ -23,8 +23,9 @@ permalink: /team/
 </div>
 </ul>
 
-<!-- Researchers -->
-<h2 class="mb-3"><a id="researcher"></a>Researchers</h2>
+<!-- Postdocs -->
+{% comment %}
+<h2 class="mb-3"><a id="researcher"></a>Postdocs</h2>
 
 {% assign members = site.posts | where: 'category', 'postdoc' | sort: 'date' %}
 <ul class="list-unstyled">
@@ -43,9 +44,9 @@ permalink: /team/
 </ul>
 
 <!-- Students -->
-<h2 class="mb-3"><a id="student"></a>PhD Students</h2>
+<h2 class="mb-3"><a id="students"></a>Students</h2>
 
-{% assign members = site.posts | where: 'category', 'phd-student' | sort: 'date' %}
+{% assign members = site.posts | where: 'category', 'student' | sort: 'date' %}
 <ul class="list-unstyled">
 <div class="row">
 {% for member in members%}
@@ -79,3 +80,4 @@ permalink: /team/
 {% endfor %}
 </div>
 </ul>
+{% endcomment %}

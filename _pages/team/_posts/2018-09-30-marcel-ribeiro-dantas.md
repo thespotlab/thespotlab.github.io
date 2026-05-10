@@ -1,6 +1,6 @@
 ---
 layout: member
-category: phd-student
+category: student
 title: Marcel Ribeiro Dantas
 image: marcel.jpg
 role: PhD Student

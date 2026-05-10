@@ -1,30 +1,21 @@
-<li class="media mb-1">
+<li class="media mb-3">
     <div class="media-body">
-
         <p>
-            <!-- author -->
-            {{ publi.Author }},
-
-            <!-- year -->
-            {{ publi['Publication Year'] | to_integer }},
-
-            <!-- article title -->
-            "{{ publi.Title }}",
-
-            <!-- journal -->
-            <span class="font-italic">{{ publi['Publication Title'] }}</span>,
-
-            {% if publi.Volume != "" and publi.Issue != "" and publi.Pages != "" %}
-                vol. {{ publi.Volume | to_integer }},
-                no. {{ publi.Issue | to_integer }},
-                pp. {{ publi.Pages }}
-            {% endif %}
-
-            <!-- DOI -->
+            <strong>{{ publi.Title }}</strong>
+            <br>{% assign authors = publi.Author | split: ", " %}{% for author in authors %}{% assign is_member = false %}{% for member in site.lab_members %}{% if author contains member %}{% assign is_member = true %}{% endif %}{% endfor %}{% if is_member %}<span style="text-decoration: underline;">{{ author }}</span>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+            <br>{{ publi['Publication Title'] }}
             {% if publi.DOI %}
-                <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
+                [<a href="https://doi.org/{{publi.DOI}}">DOI</a>]
+            {% endif %}
+            {% if publi.Paper %}
+                [<a href="/assets/{{ publi.Paper }}">Paper</a>]
+            {% endif %}
+            {% if publi.Url %}
+                [<a href="{{ publi.Url }}">URL</a>]
+            {% endif %}
+            {% if publi.Award %}
+                <br><span style="color: goldenrod;">🏆 {{ publi.Award }}</span>
             {% endif %}
         </p>
-
     </div>
 </li>

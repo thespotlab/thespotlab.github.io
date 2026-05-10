@@ -1,9 +1,9 @@
 ---
 layout: member
-category: phd-student
+category: student
 title: Eric Daoud
 image: eric.png
-role: PhD Student
+role: Masters Student
 permalink: 'team/eric-daoud'
 social:
     twitter: https://twitter.com/ericdaoud
