@@ -16,7 +16,7 @@ We are always looking for motivated undergraduate and masters students at NUS wh
 We are currently looking for one postdoctoral researcher to join our group starting from Fall 2027. The easiest way to learn more about this opportunity is to grab Collins at a conference and chat.
 
 #### Internship Opportunties
-We will likely have opportunities for a few interns to join us for internships in the summer of 2028. We will prioritize PhD students who already have a project in mind. Check back for more details later this year.
+We will likely have opportunities for a few interns to join us in the summer of 2028. We will prioritize PhD students who already have a project in mind. Check back for more details later this year.
 
 #### International Visitors
 We occassionally have opportunities to host international visitors, primarily PhD students. Your best chance is finding Collins at a conference and discussing the possibility with him.
