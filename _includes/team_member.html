@@ -5,7 +5,7 @@
          alt="{{member.title}}">
 
     <div class="media-body">
-      <h5 class="mt-0"><a href="{{ member.url }}">{{ member.title }}</a></h5>
+      <h5 class="mt-0"><a href="{% if member.social.website %}{{ member.social.website }}{% else %}{{ member.url }}{% endif %}" {% if member.social.website %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ member.title }}</a></h5>
       <p>{{member.role}}</p>
       {%- include team_member_social.html -%}
     </div>

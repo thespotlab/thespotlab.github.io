@@ -5,7 +5,7 @@ title: 'Collins W. Munyendo'
 image: 'collins.jpg'
 role: Asst. Professor & Lab director
 permalink: 'team/collins-munyendo'
-redirect_to: https://collinsmunyendo.github.io/
+# redirect_to: https://collinsmunyendo.github.io/
 
 social:
     twitter: https://x.com/collinsmunyendo
