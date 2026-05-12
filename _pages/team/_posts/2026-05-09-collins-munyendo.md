@@ -8,7 +8,7 @@ permalink: 'team/collins-munyendo'
 # redirect_to: https://collinsmunyendo.github.io/
 
 social:
-    twitter: https://x.com/collinsmunyendo
+    twitter:
     linkedin: https://linkedin.com/in/collinsmunyendo
     google-scholar: https://scholar.google.com/citations?user=UfLuwiUAAAAJ&hl=en
     github: https://github.com/collinsmunyendo
