@@ -2,7 +2,7 @@
 layout: member
 category: faculty
 title: 'Collins W. Munyendo'
-image: 'collins.jpg'
+image: 'munyendo.jpg'
 role: Asst. Professor & Lab director
 permalink: 'team/collins-munyendo'
 # redirect_to: https://collinsmunyendo.github.io/
