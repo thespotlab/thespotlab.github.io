@@ -12,6 +12,6 @@ The **SPOT** (**S**ecurity, **P**rivacy, and **O**nline **T**rust) Lab is an int
 
 We are always looking for talented students and interns to join our lab. If any of the above topics interest you, please check the [join us](join) page for more details on how you can get involved.
 
-PS: Our logo (handcrafted by the amazing <a href="https://a-wyrm.github.io/" target="_blank" rel="noopener noreferrer">Adryana Hutchinson</a>) is a spotty <a href="https://en.wikipedia.org/wiki/Dalmatian_dog" target="_blank" rel="noopener noreferrer">Dalmatian</a> holding a spotlight.
+PS: Our logo (handcrafted by the amazing <a href="https://a-wyrm.github.io/" target="_blank" rel="noopener noreferrer">Adryana Hutchinson</a>) is a <a href="https://en.wikipedia.org/wiki/Dalmatian_dog" target="_blank" rel="noopener noreferrer">Dalmatian</a> with a spotlight. Members of our lab are the Dalmatians: curious, energetic, and always exploring security and privacy frontiers.
 
 
