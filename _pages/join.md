@@ -19,4 +19,4 @@ We are currently looking for one postdoctoral researcher to join our group start
 We will likely have opportunities for a few interns to join us in the summer of 2028. We will prioritize PhD students who already have a project in mind. Check back for more details later this year.
 
 #### International Visitors
-We occassionally have opportunities to host international visitors, primarily PhD students. Your best chance is finding Collins at a conference and discussing the possibility with him.
+We occassionally have opportunities to host international visitors, primarily (but not exclusively) PhD students. Your best chance is finding Collins at a conference and discussing the possibility with him.
